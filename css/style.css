@@ -7297,10 +7297,10 @@ a.text-dark:focus, a.text-dark:hover {
   width: 100%; }
 
 .background-base {
-  background-image: url(../images/background.jpg);
-  background-position: center;
-  background-size: cover;
+  background-image: url(../images/background-1.jpg), url(../images/background-2.jpg);
+  background-position: center top, center bottom;
   background-repeat: no-repeat;
+  background-color: black;
   color: #c8f9ff; }
 
 .link {
